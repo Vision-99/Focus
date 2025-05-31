@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Focus YouTube Extension",
+    "version": "1.0",
+    "description": "Limits YouTube video viewing to specific topics only.",
+    "icons": {
+        "16": "cap_focus.png",
+        "48": "cap_focus.png",
+        "128": "cap_focus.png"
+    },
+    "permissions": ["storage"],
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
