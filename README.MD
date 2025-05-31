@@ -27,7 +27,7 @@ d:\Resume_Project\Focus
 
 1. Open Chrome and navigate to `chrome://extensions`.
 2. Enable **Developer mode** in the top right corner.
-3. Click **Load unpacked** and select your project folder `d:\Resume_Project\Focus`.
+3. Click **Load unpacked** and select your project folder `d:\file_location`.
 4. The extension should now be active.
 
 ## Usage
